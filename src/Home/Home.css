@@ -1,0 +1,153 @@
+.modalDiv{
+    
+    font-size: 120%;
+    
+;
+    
+}
+.modalDiv>img{
+    width: 15%;
+    height: 15%;
+    border-radius: 10%;
+
+   
+}
+.modalDiv>span{
+    float: right;
+}
+.err{
+    color: #f20505;
+    margin-bottom: 2px;
+    font-size: 150%;
+}
+
+
+.inputStyle{
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.inputStyle>button{
+    border-color: #f9c0c0;
+    position: relative;
+    font-size: 200%;
+    border-radius: 20%;
+    cursor: pointer;
+    text-shadow: 0 0 3px #FF0000;
+    background-color: blanchedalmond;
+}
+.inputStyle>button:hover {background-color: rgb(252, 216, 160)}
+
+.inputStyle>button:active {
+    
+    background-color:  rgb(252, 202, 121);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+.inputStyle>input{
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-color: #f9c1c1;
+    border-width: 0.2px;
+    text-shadow: 0 0 3px #deb7b7;
+    background-color: blanchedalmond;
+    border-radius: 20%;
+    position: relative;
+    font-size: 200%;
+    text-shadow: 0 0 3px #f20505;
+    }
+    .inputStyle>input:focus{
+        background-color:  rgb(252, 202, 121);
+        border-width: 0.2px;
+        border-color: #f9c1c1;
+    }
+
+
+    @media(max-width:665px) and (min-width:380px)
+    {
+        .modalDiv{
+            
+            font-size: 55%;
+         
+            
+        }
+        .inputStyle>button{
+           
+            font-size: 130%;
+        }
+        .inputStyle>input{
+           
+            font-size: 130%;
+          
+            }
+            .err{
+                font-size: 100%
+            }
+           
+    }
+    @media(max-width:380px) and (min-width:200px)
+    {
+        .modalDiv{
+            margin-top: -10%;
+            font-size:20%;
+            margin-bottom: -5%;
+            padding-bottom: 0px;
+         
+            
+        }
+        .inputStyle>button{
+           
+            font-size: 90%;
+        }
+        .inputStyle>input{
+           
+            font-size: 90%;
+          
+            }
+            .err{
+                font-size: 80%
+            }
+            .inputStyle{
+               
+                margin-left: 1%;
+                
+                
+            }
+    }
+    @media(max-width:190px)
+    {
+     
+        .modalDiv>img{
+            width: 10px;
+            height: 10px;
+           
+        
+        }
+        .modalDiv{
+            padding: none;
+            margin-left: -15px;
+            
+            font-size:4px;
+         
+            
+        }
+        .inputStyle>button{
+           
+            font-size: 40%;
+        }
+        .inputStyle>input{
+           
+            font-size: 40%;
+          
+            }
+            .err{
+                font-size: 40%
+            }
+            .inputStyle{
+               
+                margin-left: 1%;
+                
+                
+            }
+    }

@@ -1,0 +1,23 @@
+body {
+  
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  from { 
+    background: linear-gradient(to right, rgb(146, 101, 101), rgb(255, 237, 150));
+  
+   
+  }
+  to{
+    background: linear-gradient(to right,  rgb(255, 237, 150), rgb(146, 101, 101));
+  
+  }
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
